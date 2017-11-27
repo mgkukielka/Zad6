@@ -1,0 +1,13 @@
+
+Zakladki.java jest kontrolerem głównym
+
+                        (kontroler)
+Logowanie:              Zakladka1 -> logowanie.fxml
+Wprowadzanie Danych:    Zakladka2 -> dane.fxml
+Statystyki:             Zakladka3 -> statystyki.fxml
+
+Uzytkownik -> atrybuty: login, haslo, rola
+ + są już metody Zakladki.zaloguj(uzytkownik) i Zakladki.wyloguj()
+ i po zalogowaniu nazwa i rola powinny się wyświetlać w prawym górnym rogu, na razie zalogowany jest próbny admin Stefan
+
+
