@@ -9,7 +9,7 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Zakladka3">
    <children>
-      <GridPane layoutX="209.0" layoutY="114.0" prefHeight="273.0" prefWidth="333.0">
+      <GridPane fx:id="panel" layoutX="209.0" layoutY="114.0" prefHeight="273.0" prefWidth="333.0" visible="false">
         <columnConstraints>
           <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="169.0" minWidth="10.0" prefWidth="158.0" />
             <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="162.0" minWidth="10.0" prefWidth="158.0" />
@@ -43,5 +43,14 @@
             </Label>
          </children>
       </GridPane>
+      <Pane fx:id="brak">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="500.0" prefWidth="750.0" text="BRAK STATYSTYK" textAlignment="CENTER" textFill="#908c8c">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
    </children>
 </Pane>

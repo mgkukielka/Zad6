@@ -6,23 +6,30 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.GridPane;
+import javafx.scene.layout.Pane;
 
 public class Zakladka3 {
     private Zakladki parentController;
+    public GridPane panel;
     @FXML
     private Label lbl_avWzrost;
     @FXML
     private Label lbl_avWiek;
     @FXML
     private Label lbl_liczba;
+    public Pane brak;
 
     public void drukujStatystyki(){
         if (parentController.getStatystyki()!=null) {
             lbl_avWiek.setText(parentController.getStatystyki().getSredniWiek().toString());
             lbl_avWzrost.setText(parentController.getStatystyki().getSredniWzrost().toString());
             lbl_liczba.setText(parentController.getStatystyki().getLiczbaOsob().toString());
+            panel.setVisible(true);
+            brak.setVisible(false);
         } else {
-            System.out.println("Nie ma nic");
+            panel.setVisible(false);
+            brak.setVisible(true);
         }
     }
     public void zmienPlansze(ActionEvent actionEvent) {

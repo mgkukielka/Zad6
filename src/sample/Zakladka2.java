@@ -84,7 +84,6 @@ public class Zakladka2 {
                 nowy.setPesel(pesel_txt.getText());
             }
         if (nowy.sprawdz()) {table.getItems().add(nowy);}
-        System.out.println(table.getItems());
 
     }
 
