@@ -1,9 +1,0 @@
-<application>
-  <component name="JavaFxSettings">
-    <option name="pathToSceneBuilder" value="$USER_HOME$/AppData/Local/SceneBuilder" />
-    <option name="myPathToSceneBuilder" value="$USER_HOME$/AppData/Local/SceneBuilder" />
-  </component>
-  <component name="RefactoringSettings">
-    <option name="TYPE_COOK_COOK_OBJECTS" value="true" />
-  </component>
-</application>
