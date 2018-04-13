@@ -1,8 +1,10 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="Specyfikacj" type="PLAIN_TEXT" />
       <mapping pattern="Notatki" type="PLAIN_TEXT" />
       <mapping pattern="Wyjaśnione" type="PLAIN_TEXT" />
+      <mapping pattern="&quot;Specyfikacja&quot;" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
